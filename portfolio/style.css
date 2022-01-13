@@ -34,62 +34,62 @@ body {
 }
     /*//card*/
 
-.section-header {
-    font-family: 'Merriweather', serif;
-    font-size: 40px;
-    line-height: 80px;
-    color: #BDAE82;
-    text-align: center;
-
-    margin-bottom: 60px;
-}
-
-.gallery-item {
-    margin: 25px 15px;
-    max-width: 450px;
-}
-
-/*.section-header span {*/
-/*    position: relative;*/
-/*}*/
-
-/*.section-header span:before {*/
-/*    content: '';*/
-/*    width: 200px;*/
-/*    height: 2px;*/
-/*    background: #BDAE82;*/
-
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    left: -220px;*/
-/*}*/
-/*.section-header span:after {*/
-/*    content: '';*/
-/*    width: 200px;*/
-/*    height: 2px;*/
-/*    background: #BDAE82;*/
-
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    right: -220px;*/
-/*}*/
-
-/*helpers*/
-.m-25 {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-.mb-50 {
-    margin-bottom: 50px;
-}
-.p-40 {
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.justify-space-between {
-    justify-content: space-between;
-}
-.justify-content-center {
-    justify-content: center;
-}
+    .section-header {
+        font-family: 'Merriweather', serif;
+        font-size: 40px;
+        line-height: 80px;
+        color: #BDAE82;
+        text-align: center;
+    
+        margin-bottom: 60px;
+    }
+    
+    .gallery-item {
+        margin: 25px 15px;
+        max-width: 450px;
+    }
+    
+    /*.section-header span {*/
+    /*    position: relative;*/
+    /*}*/
+    
+    /*.section-header span:before {*/
+    /*    content: '';*/
+    /*    width: 200px;*/
+    /*    height: 2px;*/
+    /*    background: #BDAE82;*/
+    
+    /*    position: absolute;*/
+    /*    top: 50%;*/
+    /*    left: -220px;*/
+    /*}*/
+    /*.section-header span:after {*/
+    /*    content: '';*/
+    /*    width: 200px;*/
+    /*    height: 2px;*/
+    /*    background: #BDAE82;*/
+    
+    /*    position: absolute;*/
+    /*    top: 50%;*/
+    /*    right: -220px;*/
+    /*}*/
+    
+    /*helpers*/
+    .m-25 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+    .p-40 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .justify-space-between {
+        justify-content: space-between;
+    }
+    .justify-content-center {
+        justify-content: center;
+    } 
