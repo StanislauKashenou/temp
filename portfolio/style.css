@@ -9,6 +9,10 @@ body {
     color: #fff;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .container {
     max-width: 1440px;
     margin: auto;
@@ -98,63 +102,71 @@ body {
         display: flex;
         justify-content: flex-end;
         margin-top: 87.5px;
-        height: 705px;
-        background: url(https://s3-alpha-sig.figma.com/img/bb16/a13c/a1a2e2626ca658fe87e53a9bae63dac1?Expires=1642982400&Signature=U2h6wLmbZNcAcBKM0B0CvnnQEIdlT0l8xjbeLFf9wVJBMPyG1Sq-6W-hDi5mASaLzqcIIrOf6nfWo6g7RW7TlI6ttlXpOCWg2ZudNKzw-wV4dDjBkBxBhleLpEllj3F-~Bn2EjzpXl~VKc-WFoV1D9jwIk3lxr9qlPPzHTJqIPMxygb~iY~n0whHUxcJOw0wzCrHX10fdDtnzGhG19p4TBhRV9gnj--2GmHzur8neG3ulZ6kynRGxnUTVsST18RYoWzEBMuXH4wI1bUjbeKvyrreEOs-4CYjG3rX3UJstysP2ukYjgjL5l3Rx82MybtHwOKm4KYGu260sIKETtVDew__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA) no-repeat;
-        .Contact-item{   
-            display: flex;
-            flex-direction: column;
-            ::placeholder {
-                color:#BDAE82;
-                line-height: 40px;
-            }
-            .Contact-name{
-                color: #BDAE82;
-                font-size: 40px;
-                line-height: 80px;
-                font-family: Merriweather-Bold;
-            }
-            input{
-                margin-top: 20px;
-                color: #BDAE82;
-                border: 2px solid #BDAE82;
-                background-color: transparent;
-                width: 450px;
-                height: 50px;
-                font-size: 20px;
-                padding-left: 20px;
+        min-height: 705px;
+        background-image: url(./assets/img/a1a2e2626ca658fe87e53a9bae63dac1.jpg);
+     }   
+    .Contact-item {   
+        display: flex;
+        flex-direction: column;
+    }
+    .Contact-item ::placeholder {
+        color:#BDAE82;
+        line-height: 40px;
+    }
+    .Contact-name {
+        color: #BDAE82;
+        font-size: 40px;
+        line-height: 80px;
+        font-family: Merriweather-Bold;
+    }
+    .Contact-item input{
+        margin-top: 20px;
+        color: #BDAE82;
+        border: 2px solid #BDAE82;
+        background-color: transparent;
+        width: 450px;
+        height: 50px;
+        font-size: 20px;
+        padding-left: 20px;
 
-            }    
+    }    
+    .Contact-item textarea{
+        margin-top: 20px;
+        background-color: transparent;
+        padding-left: 20px;
+        font-size: 20px;
+        border: 2px solid #BDAE82;
+        width: 430px;
+        height: 100px;
+    }
+    .Contact-item button{
+        background-color: #BDAE82;
+        font-size: 20px;
+        color: #000;
+        width: 220px;
+        height: 55px;              
+    }
 
-            textarea{
-                margin-top: 20px;
-                background-color: transparent;
-                padding-left: 20px;
-                font-size: 20px;
-                border: 2px solid #BDAE82;
-                width: 430px;
-                height: 100px;
-            }
-            button{
-                background-color: #BDAE82;
-                font-size: 20px;
-                color: #000;
-                width: 220px;
-                height: 55px;              
-            }
-        }
-        .footer{
-            display: flex;
-            justify-content: space-between;
-            align-items:center;
-            height: 150px;
-        }
-        .footer__left{
-                line-height: 50px;
-                margin-left: 20px;
-        }
-        .footer__center{
-                line-height: 50px;
-        }
-        .footer__right{
-            margin: 15px;
-                }
+    .footer{
+        display: flex;
+        align-items:center;
+        height: 150px;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .footer__left{
+            line-height: 50px;
+            margin-left: 20px;
+    }
+    .footer__center{
+            line-height: 50px;
+    }
+    .footer__right{
+        margin: 15px;    
+    }
+    .footer__icons{
+        display: flex;
+    }
+    .footer__icons li {
+        padding: 10px;
+    }
