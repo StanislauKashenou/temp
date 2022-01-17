@@ -104,6 +104,8 @@ ul{
         margin-top: 87.5px;
         min-height: 705px;
         background-image: url(./assets/img/a1a2e2626ca658fe87e53a9bae63dac1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
      }   
     .Contact-item {   
         display: flex;
@@ -136,7 +138,7 @@ ul{
         padding-left: 20px;
         font-size: 20px;
         border: 2px solid #BDAE82;
-        width: 430px;
+        width: 450px;
         height: 100px;
     }
     .Contact-item button{
@@ -144,7 +146,8 @@ ul{
         font-size: 20px;
         color: #000;
         width: 220px;
-        height: 55px;              
+        height: 55px; 
+        margin-top: 30px;             
     }
 
     .footer{
@@ -168,5 +171,5 @@ ul{
         display: flex;
     }
     .footer__icons li {
-        padding: 10px;
+        padding: 9px;
     }
