@@ -142,8 +142,19 @@ body {
                 height: 55px;              
             }
         }
-        footer{
+        .footer{
             display: flex;
+            justify-content: space-between;
+            align-items:center;
             height: 150px;
         }
-    }
+        .footer__left{
+                line-height: 50px;
+                margin-left: 20px;
+        }
+        .footer__center{
+                line-height: 50px;
+        }
+        .footer__right{
+            margin: 15px;
+                }
