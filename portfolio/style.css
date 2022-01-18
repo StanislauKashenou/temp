@@ -97,6 +97,9 @@ ul{
     .justify-content-center {
         justify-content: center;
     } 
+    .gap-5 {
+        gap: 5px;
+    }
 
     .Contact{
         display: flex;
@@ -141,13 +144,18 @@ ul{
         width: 450px;
         height: 100px;
     }
-    .Contact-item button{
-        background-color: #BDAE82;
+    .button {
+        background-color: #000;
         font-size: 20px;
-        color: #000;
+        color: #BDAE82;
         width: 220px;
         height: 55px; 
-        margin-top: 30px;             
+        margin-top: 30px; 
+        border: 2px solid #BDAE82;          
+    }
+    .button.active {
+        background-color: #BDAE82;
+        color:#000;
     }
 
     .footer{

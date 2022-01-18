@@ -138,12 +138,33 @@
       </section>
 
       <section>
+        <h3 class="section-header">
+          <span>Video</span>
+        </h3>
         <img src="./assets/img/video.jpg" alt="video-player">
       </section>
 
       <section>
         <h3 class="section-header">
           <span>Portfolio</span>
+
+          <!-- блок с кнопками -->
+          <div class="flex-row justify-content-center gap-5">
+            <button class="button">
+              Winter
+            </button>
+            <button class="button">
+              Spring
+            </button>
+            <button class="button">
+              Summer
+            </button>
+            <button class="button active">
+              Autumn
+            </button>
+          </div>
+          <!-- блок с кнопками -->
+
           <div class="flex-row justify-content-center">
             <img src="./assets/img/portfolio-img.jpg" alt="portfolio" class="gallery-item">
             <img src="./assets/img/portfolio-img (1).jpg" alt="portfolio" class="gallery-item">
@@ -163,7 +184,7 @@
           <input type="tel" placeholder="Phone">
           <textarea placeholder="Message"></textarea>
 
-          <button>
+          <button class="button active">
             Send message
           </button>
         </div>
