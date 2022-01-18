@@ -12,6 +12,23 @@ body {
 ul{
     list-style-type: none;
 }
+
+.banner {
+    background-image: url(./assets/img/bg.jpg);
+    width: 1440px;
+    margin: 0px;
+}
+
+/* Logo */
+.icons-logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+}
+/* Logo */
+
 .container {
     max-width: 1440px;
     margin: auto;
@@ -32,11 +49,13 @@ ul{
     text-align: center;
     padding: 10px;
 }
+
 .card-title {
     font-size: 20px;
     margin-top: 43px;
     margin-bottom: 20px;
 }
+
     /*//card*/
 
     .section-header {
@@ -84,18 +103,23 @@ ul{
         margin-left: 25px;
         margin-right: 25px;
     }
+
     .mb-50 {
         margin-bottom: 50px;
     }
+
     .my-40 {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
     .p-40 {
         padding-left: 40px;
         padding-right: 40px;
     }
+
     .px-20 {
+       
         padding: 0 20px;
     }
     .mb-20 {
@@ -105,12 +129,15 @@ ul{
     .justify-space-between {
         justify-content: space-between;
     }
+
     .justify-content-center {
         justify-content: center;
     } 
+
     .gap-5 {
         gap: 5px;
     }
+
     .gap-25{
         gap: 25px;
     }
@@ -123,21 +150,25 @@ ul{
         background-image: url(./assets/img/a1a2e2626ca658fe87e53a9bae63dac1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-     }   
+    } 
+
     .Contact-item {   
         display: flex;
         flex-direction: column;
     }
+
     .Contact-item ::placeholder {
         color:#BDAE82;
         line-height: 40px;
     }
+
     .Contact-name {
         color: #BDAE82;
         font-size: 40px;
         line-height: 80px;
         font-family: Merriweather-Bold;
     }
+
     .Contact-item input{
         margin-top: 20px;
         color: #BDAE82;
@@ -148,7 +179,8 @@ ul{
         font-size: 20px;
         padding-left: 20px;
 
-    }    
+    } 
+
     .Contact-item textarea{
         margin-top: 20px;
         background-color: transparent;
@@ -158,6 +190,7 @@ ul{
         width: 450px;
         height: 100px;
     }
+
     .button {
         background-color: #000;
         font-size: 20px;
@@ -167,6 +200,7 @@ ul{
         margin-top: 30px; 
         border: 2px solid #BDAE82;          
     }
+
     .button.active {
         background-color: #BDAE82;
         color:#000;
@@ -179,17 +213,20 @@ ul{
         border: 3px solid #BDAE82;
         margin-bottom: 100px; 
         align-items: center;
-    }   
+    }
+
     .price-card p{
         font-size: 18px;
         line-height: 36px;
         margin: 0;
     }
+
     .price {
         color:#BDAE82;
         font-family: "Merriweather";
 
     }
+
     .footer{
         display: flex;
         align-items:center;
@@ -197,19 +234,24 @@ ul{
         justify-content: space-between;
         font-size: 20px;
     }
+
     .footer__left{
             line-height: 50px;
             margin-left: 20px;
     }
+
     .footer__center{
             line-height: 50px;
     }
+
     .footer__right{
         margin: 15px;    
     }
+
     .footer__icons{
         display: flex;
     }
+
     .footer__icons li {
         padding: 9px;
     }
