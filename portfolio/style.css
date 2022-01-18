@@ -12,7 +12,6 @@ body {
 ul{
     list-style-type: none;
 }
-
 .container {
     max-width: 1440px;
     margin: auto;
@@ -35,6 +34,8 @@ ul{
 }
 .card-title {
     font-size: 20px;
+    margin-top: 43px;
+    margin-bottom: 20px;
 }
     /*//card*/
 
@@ -86,9 +87,19 @@ ul{
     .mb-50 {
         margin-bottom: 50px;
     }
+    .my-40 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
     .p-40 {
         padding-left: 40px;
         padding-right: 40px;
+    }
+    .px-20 {
+        padding: 0 20px;
+    }
+    .mb-20 {
+        margin-bottom: 20px !important;
     }
     
     .justify-space-between {
@@ -99,6 +110,9 @@ ul{
     } 
     .gap-5 {
         gap: 5px;
+    }
+    .gap-25{
+        gap: 25px;
     }
 
     .Contact{
@@ -157,7 +171,25 @@ ul{
         background-color: #BDAE82;
         color:#000;
     }
+    .price-card {
+        display: flex;
+        flex-grow: 1;
+        flex-basis: calc(33% - 25px);
+        flex-direction:column;
+        border: 3px solid #BDAE82;
+        margin-bottom: 100px; 
+        align-items: center;
+    }   
+    .price-card p{
+        font-size: 18px;
+        line-height: 36px;
+        margin: 0;
+    }
+    .price {
+        color:#BDAE82;
+        font-family: "Merriweather";
 
+    }
     .footer{
         display: flex;
         align-items:center;
