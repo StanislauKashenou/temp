@@ -22,7 +22,6 @@ a {
 p {
     margin: 0;
 }
-
 /*banner start*/
 .banner {
     background-image: url("./assets/img/bg.jpg");
@@ -32,7 +31,6 @@ p {
     display: flex;
     flex-direction: column;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -166,6 +164,10 @@ header .nav-list {
         margin-bottom: 40px;
     }
 
+    .mt-25 {
+        margin-top: 25px;
+    }
+
     .p-40 {
         padding-left: 40px;
         padding-right: 40px;
@@ -251,7 +253,8 @@ header .nav-list {
         width: 220px;
         height: 55px; 
         margin-top: 30px; 
-        border: 2px solid #BDAE82;          
+        border: 2px solid #BDAE82;
+        cursor: pointer;        
     }
 
     .button.active {
