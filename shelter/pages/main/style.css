@@ -1,59 +1,67 @@
 @font-face {
   font-family: "arial";
-  src: url(/shelter/assets/fonts/arial/arial-regular.ttf);
+  src: url("./../../assets/fonts/arial/arial-regular.ttf");
 }
 
 @font-face {
   font-family: "georgia";
-  src: url(/shelter/assets/fonts/georgia/georgia-regular.ttf);
-}
-body  {
-  font-family: arial, sans-serif;
+  src: url("./../../assets/fonts/georgia/georgia-regular.ttf");
 }
 
- /* container */
-.container  {
+* {
+  box-sizing: border-box;
+  transition: 0.6s;
+}
+
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+
+/* container */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/*main_banner*/
+.gradient_wrap {
+  background: radial-gradient(circle at 14% 6%, #544236, #222021 50%);
+}
+
+.main_banner {
+  background: url("./../../assets/images/start-screen-puppy.png") 95% 100% no-repeat;
+  min-height: 908px;
   max-width: 1280px;
   margin: 0 auto;
 }
 
-  /* intro */
-.intro  {
-  max-width: 1200px;
-  margin: 0 auto;
-  height: 908px;
-  background: url('/shelter/assets/images/Start\ screen.jpg') center no-repeat;
-  background-size: cover; /* всю площ экрана */
-}
-
-  /* header */
+/* header */
 .header {
-  width: 100%;
-  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
 }
 
-.header_title  {
-  height: 35px;
-  left: 0px;
+.header_title {
 }
 
 .header_subtitle {
-  position: absolute;
-  width: 179px;
-  height: 15px;
-  left: 4px;
 }
 
-  /* nav */
-.nav  {
-  font-size: 15px;
-  position: absolute;
-  height: 27px;
-  left: 757px;
-  top: 16px;
-}
-
+/* nav */
 .nav_link {
-  color:#CDCDCD;
-  margin:0 5px;
+  color: #cdcdcd;
+  margin: 0 17.5px;
+  padding-bottom: 4px;
+  border-bottom: 3px solid transparent;
+}
+.nav_link:hover,
+.nav_link.active {
+  border-color: #f1cdb3;
 }
