@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>shelter-dom</title>
   </head>
@@ -21,23 +22,32 @@
               <a class="nav_link" href="#">Contacts</a>
             </nav>
           </header>
+          <div class="banner_content">
+            <h1 class="banner_title">Not only people need a house</h1>
+            <p class="banner_content">
+              We offer to give a chance to a little and nice puppy with an
+              extremely wide and open heart. He or she will love you more than
+              anybody else in the world, you will see!
+            </p>
+            <button class="main_btn">Make a friend</button>
+          </div>
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col_w_40">
+      <section class="row align_items_center justify_content_center gap_lg_120">
+        <div class="col">
           <img src="../../assets/images/about-pets.png" alt="" />
         </div>
-        <div class="col_w_60">
-          <h3 class="heading">About the shelter “Cozy House”</h3>
-          <p class="subheading">
+        <div class="col">
+          <h3 class="heading max_w_360">About the shelter “Cozy House”</h3>
+          <p class="content_block">
             Currently we have 121 dogs and 342 cats on our hands and statistics
             show that only 20% of them will find a family. The others will
             continue to live with us and will be waiting for a lucky chance to
             become dearly loved.
           </p>
-          <p class="subheading">
+          <p class="content_block">
             We feed our wards with the best food and make sure that they do not
             get sick, feel comfortable (including psychologically) and well. We
             are supported by 87 volunteers and 28 employees of various skill
@@ -46,6 +56,45 @@
             would hardly ever leave them alone.
           </p>
         </div>
+      </section>
+    </div>
+    <div class="bg_gray">
+      <div class="container">
+        <section>
+          <h3 class="heading text_center mx_auto mb_60">
+            Our friends who are looking for a house
+          </h3>
+          <div class="row justify_content_between mb_60">
+            <!--          карточка зверушки-->
+            <div class="col">
+              <div class="card">
+                <img src="./../../assets/images/pets-katrine.png" alt="cat" />
+                <div class="card_title">Katrine</div>
+                <button class="main_btn btn_white mb_30">Learn more</button>
+              </div>
+            </div>
+            <!--          карточка зверушки-->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./../../assets/images/pets-jennifer.png"
+                  alt="jennifer"
+                />
+                <div class="card_title">Jennifer</div>
+                <button class="main_btn btn_white mb_30">Learn more</button>
+              </div>
+            </div>
+            <!--          карточка зверушки-->
+            <div class="col">
+              <div class="card">
+                <img src="./../../assets/images/pets-woody.png" alt="woody" />
+                <div class="card_title">Woody</div>
+                <button class="main_btn btn_white mb_30">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <button class="main_btn mx_auto">Get to know the rest</button>
+        </section>
       </div>
     </div>
   </body>
