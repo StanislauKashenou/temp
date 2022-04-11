@@ -35,7 +35,8 @@ a {
 }
 
 .main_banner {
-  background: url("./../../assets/images/start-screen-puppy.png") 95% 100% no-repeat;
+  background: url("./../../assets/images/start-screen-puppy.png") 95% 100%
+    no-repeat;
   min-height: 908px;
   max-width: 1280px;
   margin: 0 auto;
@@ -49,9 +50,15 @@ a {
 }
 
 .header_title {
+  font-size: 32px;
+  font-family: "georgia";
+  color: #f1cdb3;
 }
 
 .header_subtitle {
+  font-size: 13px;
+  font-family: "arial";
+  color: #ffffff;
 }
 
 /* nav */
@@ -64,4 +71,28 @@ a {
 .nav_link:hover,
 .nav_link.active {
   border-color: #f1cdb3;
+}
+
+/* about */
+/* row */
+.col_w_40 {
+  float: left;
+  padding-right: 120px;
+}
+
+.col_w_60 {
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 370;
+  font-family: "georgia";
+  color: #545454;
+}
+
+.subheading {
+  font-size: 15px;
+  font-family: "arial";
+  font-weight: 430;
+  color: #4c4c4c;
 }
