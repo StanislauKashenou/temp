@@ -84,6 +84,18 @@ section {
   color: #ffffff;
 }
 
+.banner_title {
+  font-family: "georgia";
+  font-size: 44px;
+  color: #ffffff;
+  max-width: 310px;
+}
+
+.banner_content {
+  max-width: 460px;
+  color: #cdcdcd;
+}
+
 /* nav */
 .nav_link {
   color: #cdcdcd;
@@ -109,7 +121,7 @@ section {
 .content_block {
   max-width: 430px;
 }
-/*card*/
+/* card */
 .card {
   display: flex;
   flex-direction: column;
@@ -124,7 +136,7 @@ section {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/*button*/
+/* button */
 .main_btn {
   font-family: "georgia", serif;
   font-size: 17px;
@@ -140,7 +152,7 @@ section {
 .main_btn.btn_white {
   background: #fafafa;
 }
-/*helpers*/
+/* helpers */
 .text_center {
   text-align: center;
 }
@@ -164,4 +176,10 @@ section {
   .gap_lg_120 {
     gap: 120px;
   }
+}
+/* icons */
+.icon_title {
+  font-size: 20px;
+  font-family: "georgia";
+  color: #545454;
 }
