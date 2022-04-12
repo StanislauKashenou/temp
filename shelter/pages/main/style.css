@@ -208,3 +208,40 @@ section {
   gap: 0 120px;
   justify-content: center;
 }
+
+.donation {
+  background: #f6f6f6;
+  justify-content: center;
+  align-items: center;
+}
+.donation_section {
+  display: flex;
+  justify-content: space-between;
+}
+.donation_heading {
+  width: 74.7%;
+  max-width: 300px;
+}
+.donation_subheading {
+  margin-top: 20px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #545454;
+}
+.donation__card {
+  width: 349px;
+  height: 43px;
+  background: #f1cdb3;
+  display: flex;
+  padding: 10px 10px;
+  margin: 20px 0;
+}
+.donation_text {
+  font-family: "arial";
+  width: 380px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+}
