@@ -202,3 +202,9 @@ section {
   font-family: "georgia";
   color: #545454;
 }
+.icon_button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 120px;
+  justify-content: center;
+}
