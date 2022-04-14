@@ -61,11 +61,16 @@ p {
 }
 
 .header_subtitle {
+  height: 15px;
+  margin: 10px 0 0 4px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
   font-size: 13px;
-  font-family: "arial";
-  color: #ffffff;
-  line-height: 100%;
+  line-height: 15px;
   letter-spacing: 0.1em;
+  align-items: center;
+  color: #292929;
 }
 
 /* nav */
