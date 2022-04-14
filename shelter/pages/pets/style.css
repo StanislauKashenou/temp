@@ -26,13 +26,14 @@ h1 {
 }
 h3 {
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
 p {
   color: #4c4c4c;
   line-height: 24px;
   margin: 0;
 }
+
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -77,4 +78,141 @@ p {
 .nav_link:hover,
 .nav_link.active {
   border-color: #f1cdb3;
+}
+
+/* about */
+.heading {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 400;
+  font-family: "georgia";
+  color: #545454;
+  max-width: 400px;
+}
+
+.bg_gray {
+  background: #f6f6f6;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.justify_content_between {
+  justify-content: space-between;
+}
+
+/* grid */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+/* button */
+.main_btn {
+  font-family: "georgia", serif;
+  font-size: 17px;
+  line-height: 22px;
+  display: block;
+  padding: 13px 45px;
+  background: #f1cdb3;
+  color: #292929;
+  border-radius: 100px;
+  border: 2px solid #f1cdb3;
+  cursor: pointer;
+}
+.main_btn.btn_white {
+  background: #fafafa;
+}
+
+/* card */
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  color: #545454;
+  align-items: center;
+}
+.card_title {
+  font-family: "georgia", serif;
+  font-size: 20px;
+  line-height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.slider-button-bar {
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+}
+.slider-button-inactive {
+  width: 52px;
+  height: 52px;
+  background: transparent;
+  border: 2px solid #cdcdcd;
+  border-radius: 100px;
+  cursor: default;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 115%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #cdcdcd;
+}
+.page-number {
+  width: 52px;
+  height: 52px;
+  background: #f1cdb3;
+  border-radius: 100px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+.slider-button {
+  width: 52px;
+  height: 52px;
+  background: transparent;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 115%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+/* helpers */
+.mb_30 {
+  margin-bottom: 30px;
+}
+.mb_60 {
+  margin-bottom: 60px;
+}
+
+.mx_auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.text_center {
+  text-align: center;
 }
