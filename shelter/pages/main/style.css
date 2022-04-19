@@ -11,6 +11,7 @@
 * {
   box-sizing: border-box;
   transition: 0.6s;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -47,13 +48,16 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
-.row.align_items_center {
+.align_items_center {
   align-items: center;
 }
-.row.justify_content_center {
+.align_items_start {
+  align-items: flex-start;
+}
+.justify_content_center {
   justify-content: center;
 }
-.row.justify_content_between {
+.justify_content_between {
   justify-content: space-between;
 }
 /*main_banner*/
@@ -180,10 +184,6 @@ section {
   margin: auto;
   gap: 55px 120px;
 }
-.donation_section {
-  display: flex;
-  justify-content: space-between;
-}
 .donation_heading {
   max-width: 260px;
 }
@@ -229,10 +229,6 @@ section {
   padding-right: 40px;
   padding-left: 40px;
   background: linear-gradient(to right, #5b483a 0%, #262425 100%);
-}
-.footer_content {
-  display: flex;
-  justify-content: space-between;
 }
 .footer_contacts {
   display: flex;
@@ -286,8 +282,7 @@ section {
   justify-content: space-between;
 }
 .location_heading {
-  width: 279px;
-  height: 90px;
+  max-width: 279px;
   font-family: "georgia";
   font-size: 35px;
   color: #ffffff;
@@ -326,6 +321,13 @@ section {
 .max_w_360 {
   max-width: 360px;
 }
+.pt_40 {
+  padding-top: 40px;
+}
+.my_25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .mb_30 {
   margin-bottom: 30px;
 }
@@ -335,8 +337,55 @@ section {
 .mb_60 {
   margin-bottom: 60px;
 }
+.gap_40 {
+  gap: 40px;
+}
+
+/*MEDIA queries*/
 @media (min-width: 769px) {
   .gap_lg_120 {
-    gap: 0 120px;
+    gap: 120px;
+  }
+  .lg_d_none {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+  .order_sm_1 {
+    order: 1;
+  }
+  .sp_pt_30 {
+    padding-top: 30px;
+  }
+  .sm_pb_100 {
+    padding-bottom: 100px;
+  }
+  .sm_mx_auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sm_mt_80 {
+    margin-top: 80px;
+  }
+  .sm_mt_60 {
+    margin-top: 60px;
+  }
+  .sm_justify_content_center {
+    justify-content: center;
+  }
+  .sm_align_items_center {
+    align-items: center;
+  }
+  .sm_d_none {
+    display: none;
+  }
+  .main_banner {
+    background: none;
+  }
+  .banner_copy {
+    max-width: 460px;
   }
 }

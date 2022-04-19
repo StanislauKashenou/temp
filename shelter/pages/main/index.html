@@ -10,7 +10,7 @@
     <div class="gradient_wrap">
       <div class="main_banner">
         <div class="container">
-          <header class="header">
+          <header class="header sm_align_items_center sp_pt_30">
             <div class="header_logo">
               <div class="header_title">Cozy House</div>
               <div class="header_subtitle">Shelter for pets in Boston</div>
@@ -18,30 +18,31 @@
             <nav class="nav">
               <a class="nav_link active" href="#">About the shelter</a>
               <a class="nav_link" href="../pets/index.html">Our pets</a>
-              <a class="nav_link" href="#donation">Help the shelter</a>
+              <a class="nav_link" href="#help">Help the shelter</a>
               <a class="nav_link" href="#contacts">Contacts</a>
             </nav>
           </header>
-          <div class="banner_copy">
+          <div class="banner_copy sm_mt_60 sm_pb_100 sm_mx_auto">
             <h1 class="banner_title mb_40">Not only people need a house</h1>
             <p class="banner_content mb_40">
               We offer to give a chance to a little and nice puppy with an
               extremely wide and open heart. He or she will love you more than
               anybody else in the world, you will see!
             </p>
-            <button class="main_btn">Make a friend</button>
+            <button class="main_btn sm_mx_auto">Make a friend</button>
           </div>
+          <img src="./../../assets/images/start-screen-puppy.png" alt="doggy dog" class="lg_d_none">
         </div>
       </div>
     </div>
     <div class="container">
       <section class="row align_items_center justify_content_center gap_lg_120">
-        <div class="col">
+        <div class="col sm_mt_80 order_sm_1">
           <img src="../../assets/images/about-pets.png" alt="" />
         </div>
         <div class="col">
           <h3 class="heading max_w_360">About the shelter “Cozy House”</h3>
-          <p class="content_block">
+          <p class="content_block my_25">
             Currently we have 121 dogs and 342 cats on our hands and statistics
             show that only 20% of them will find a family. The others will
             continue to live with us and will be waiting for a lucky chance to
@@ -64,7 +65,7 @@
           <h3 class="heading text_center mx_auto mb_60">
             Our friends who are looking for a house
           </h3>
-          <div class="row justify_content_between mb_60">
+          <div class="row sm_justify_content_center justify_content_between mb_60 gap_40">
             <!--          карточка зверушки-->
             <div class="col">
               <div class="card">
@@ -85,7 +86,7 @@
               </div>
             </div>
             <!--          карточка зверушки-->
-            <div class="col">
+            <div class="col sm_d_none"> <!-- sm_d_none - TEMP??? -->">
               <div class="card">
                 <img src="./../../assets/images/pets-woody.png" alt="woody" />
                 <div class="card_title">Woody</div>
@@ -98,7 +99,7 @@
       </div>
     </div>
     <div class="container">
-      <section>
+      <section id="help">
         <h3 class="heading text_center mx_auto mb_60">
           How you can help our shelter
         </h3>
@@ -155,9 +156,9 @@
       </section>
     </div>
     <div class="bg_gray">
-      <section class="donation">
+      <section class="row sm_justify_content_center justify_content_between">
         <div class="row align_items_center justify_content_center">
-          <div class="donation_image">
+          <div class="donation_image order_sm_1 sm_mt_60">
             <img
               class="donation_dog"
               src="../../assets/images/donation-dog.png"
@@ -192,21 +193,20 @@
       </section>
     </div>
     <footer class="footer" id="contacts">
-      <div class="footer_content container">
-        <div class="footer_contacts">
-          <h3 class="contacts_heading">For questions and suggestions</h3>
-          <div class="mail">
-            <div class="mail_svg">
-              <a href="mailto:email@shelter.com"
-                ><img src="../../assets/icons/mail.svg" alt="icon mail"
-              /></a>
-            </div>
-            <div class="mail_text">
-              <a class="footer_text" href="mailto:email@shelter.com"
-                >email@shelter.com</a
-              >
-            </div>
-            `
+      <div class="container">
+        <div class="row justify_content_between align_items_start pt_40">
+          <div class="footer_contacts">
+            <h3 class="contacts_heading">For questions and suggestions</h3>
+            <div class="mail">
+              <div class="mail_svg">
+                <a href="mailto:email@shelter.com"
+                 ><img src="../../assets/icons/mail.svg" alt="icon mail"
+                 /></a>
+                </div>
+                <div class="mail_text">
+                  <a class="footer_text" href="mailto:email@shelter.com"
+                   >email@shelter.com</a>
+                </div>
           </div>
           <div class="phone">
             <div class="phone_svg">
