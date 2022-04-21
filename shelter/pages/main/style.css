@@ -204,7 +204,7 @@ section {
   color: #545454;
 }
 .donation__card {
-  width: 349px;
+  max-width: 349px;
   height: 43px;
   background: #f1cdb3;
   display: flex;
@@ -227,7 +227,7 @@ section {
 }
 .donation_text {
   font-family: "arial";
-  width: 380px;
+  max-width: 380px;
   font-size: 12px;
   line-height: 18px;
   color: #b2b2b2;
@@ -319,8 +319,11 @@ section {
   margin-top: 0;
 }
 .footer_image {
-  max-width: 300px;
   margin-top: auto;
+}
+/*help cards*/
+.help_card {
+  width: 130px;
 }
 /* helpers */
 .text_center {
@@ -373,7 +376,11 @@ section {
 }
 
 /*MEDIA queries*/
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
+  .footer_image {
+    max-width: 300px;
+    margin-top: auto;
+  }
   .gap_lg_120 {
     gap: 120px;
   }
@@ -381,7 +388,7 @@ section {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .container {
     padding: 0 30px;
   }
@@ -434,5 +441,18 @@ section {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+  .icon_cards_wrap {
+    gap: 30px;
+  }
+  .help_card .icon_title {
+    font-size: 15px;
+    line-height: 16.5px;
+  }
+  .xs_justify_content_start {
+    justify-content: flex-start;
+  }
 }
