@@ -457,9 +457,6 @@ section {
     font-size: 15px;
     line-height: 16.5px;
   }
-  .xs_justify_content_start {
-    justify-content: flex-start;
-  }
   /*mobile nav*/
   .mobile_logo {
     display: inline-block;
@@ -488,5 +485,9 @@ section {
   .nav_link {
     font-size: 32px;
     line-height: 51.2px;
+  }
+  .icon_cards_wrap {
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }
