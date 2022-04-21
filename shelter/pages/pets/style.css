@@ -335,15 +335,15 @@ section {
   .sm_align_items_center {
     align-items: center;
   }
-  .sm_ml {
-    margin-left: 170px;
-  }
   .ma_auto {
     margin: 0 auto;
     margin-bottom: 60px;
   }
   .sm_m_0 {
     margin: 0;
+  }
+  .sm_m_auto {
+    margin: auto;
   }
   .r_gap {
     row-gap: 35px;

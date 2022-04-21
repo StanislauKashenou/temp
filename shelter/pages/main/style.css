@@ -401,7 +401,7 @@ section {
   .sm_mt_60 {
     margin-top: 60px;
   }
-  .sm_ml  {
+  .sm_ml {
     margin-left: 170px;
   }
   .ma_auto {
@@ -410,6 +410,9 @@ section {
   }
   .sm_m_0 {
     margin: 0;
+  }
+  .sm_m_auto {
+    margin: auto;
   }
   .r_gap {
     row-gap: 35px;
