@@ -34,6 +34,9 @@ p {
   line-height: 24px;
   margin: 0;
 }
+img {
+  max-width: 100%;
+}
 /* grid */
 .container {
   max-width: 1280px;
@@ -401,9 +404,6 @@ section {
   .sm_mt_60 {
     margin-top: 60px;
   }
-  .sm_ml {
-    margin-left: 170px;
-  }
   .ma_auto {
     margin: 0 auto;
     margin-bottom: 60px;
@@ -435,7 +435,4 @@ section {
 }
 
 @media (max-width: 320px) {
-  .img {
-    max-width: 100%;
-  }
 }
