@@ -117,9 +117,13 @@ section {
 }
 
 /* nav */
+.nav {
+  display: flex;
+  align-items: center;
+}
 .nav_link {
   color: #cdcdcd;
-  margin: 0 17.5px;
+  margin-left: 35px;
   padding-bottom: 4px;
   border-bottom: 3px solid transparent;
 }
@@ -138,6 +142,7 @@ section {
   color: #545454;
   max-width: 400px;
 }
+
 .content_block {
   max-width: 430px;
 }
@@ -234,12 +239,16 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 30px;
 }
 .contacts_heading {
-  max-width: 279px;
+  max-width: 280px;
   font-family: "georgia";
   font-size: 35px;
   color: #ffffff;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.06em;
 }
 .mail {
   display: flex;
@@ -251,10 +260,6 @@ section {
   align-content: center;
   width: 251px;
   height: 32px;
-}
-.phone {
-  display: flex;
-  justify-content: space-between;
 }
 .footer_text {
   display: flex;
@@ -271,10 +276,14 @@ section {
 .footer_text svg {
   flex-shrink: 0;
 }
+.phone {
+  display: flex;
+}
 .phone_number {
   display: flex;
   justify-content: center;
   align-content: center;
+  padding-left: 20px;
 }
 .footer_location {
   display: flex;
@@ -286,6 +295,9 @@ section {
   font-family: "georgia";
   font-size: 35px;
   color: #ffffff;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.06em;
 }
 .location_item {
   display: flex;
@@ -315,6 +327,13 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
+.max_0 {
+  margin: 0;
+}
+.ma_auto {
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
 .bg_gray {
   background: #f6f6f6;
 }
@@ -339,6 +358,15 @@ section {
 }
 .gap_40 {
   gap: 40px;
+}
+.gap_90 {
+  gap: 90px;
+}
+.col_gap {
+  column-gap: 30px;
+}
+.p_0 {
+  padding: 0;
 }
 
 /*MEDIA queries*/
@@ -373,6 +401,19 @@ section {
   .sm_mt_60 {
     margin-top: 60px;
   }
+  .sm_ml  {
+    margin-left: 170px;
+  }
+  .ma_auto {
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .sm_m_0 {
+    margin: 0;
+  }
+  .r_gap {
+    row-gap: 35px;
+  }
   .sm_justify_content_center {
     justify-content: center;
   }
@@ -387,5 +428,11 @@ section {
   }
   .banner_copy {
     max-width: 460px;
+  }
+}
+
+@media (max-width: 320px) {
+  .img {
+    max-width: 100%;
   }
 }
